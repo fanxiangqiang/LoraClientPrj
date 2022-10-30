@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "debug_log.h": "c",
+        "stm32wle5xx.h": "c"
+    }
+}
