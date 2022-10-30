@@ -59,7 +59,6 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define LedPin_PB3_Pin GPIO_PIN_3
 #define LedPin_PB3_GPIO_Port GPIOB
-void   MX_SUBGHZ_Init(void);
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

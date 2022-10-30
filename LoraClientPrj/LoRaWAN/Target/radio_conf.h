@@ -28,7 +28,7 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "platform.h"
-#include "main.h"
+#include "subghz.h"
 #include "stm32_mem.h"       /* RADIO_MEMSET8 def in this file */
 #include "mw_log_conf.h"     /* mw trace conf */
 #include "radio_board_if.h"  /* low layer api (bsp) */
@@ -38,7 +38,6 @@ extern "C" {
 /* USER CODE END include */
 
 /* Exported types ------------------------------------------------------------*/
-extern SUBGHZ_HandleTypeDef hsubghz;
 /* USER CODE BEGIN ET */
 
 /* USER CODE END ET */
