@@ -28,6 +28,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include"usart.h"
+#include"Debug_Log.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -152,8 +153,7 @@ void BlinkTask(void *argument)
   {
 	  HAL_GPIO_TogglePin(LedPin_PB3_GPIO_Port, LedPin_PB3_Pin);
 	  osDelay(1000);
-	  HAL_UART_Transmit(&hlpuart1, (uint8_t *)"hello windows!\r\n", 16 , 0xffff);
-	  //DBG("hello world\r\n");
+	  DBG("hello world\r\n");
   }
   /* USER CODE END BlinkTask */
 }
